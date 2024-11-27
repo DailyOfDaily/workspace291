@@ -198,7 +198,7 @@ app.get('/edit/:id', function(req, res){
 
 
 app.post('/edit', function(req, res){
-    console.log('수정완료');
+    console.log('수정 완료');
 
     console.log(req.body.id);
     req.body.id = new ObjId(req.body.id);
