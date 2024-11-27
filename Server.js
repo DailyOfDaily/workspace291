@@ -21,7 +21,7 @@ mongoClient.connect(url)
     // })
 
     http.listen(process.env.PORT, function(){   // 기존 app.listen 에서 http.listen 으로 수정(웹소켓 사용을 위해)
-        console.log('포트 8080으로 서버 대기중...')
+        console.log('포트 8000으로 서버 대기중...')
     })
 })
 .catch(err=>{
