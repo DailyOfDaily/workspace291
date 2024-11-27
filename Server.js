@@ -1,7 +1,7 @@
 
 const dotenv = require('dotenv').config();
 
-
+//아무거나
 
 let mydb;
 // MongoDB + Node.js 접속 코드
