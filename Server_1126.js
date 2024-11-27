@@ -24,7 +24,6 @@ let mydb;
 const mongoClient = require('mongodb').MongoClient;
 const ObjId = require('mongodb').ObjectId;
 //npm install objectid 설치
-const url = 'mongodb+srv://jangtyu:qngodcjs4!@cluster0.pr8we.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoClient.connect(url)
 .then(client=>{
