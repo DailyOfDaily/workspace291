@@ -15,7 +15,7 @@ const app = express();
 
 //미들웨어 설정
 app.use(session({
-    secret : '39fd09u29fh0937r90f',
+    secret : '',
     resave : false,
     saveUnintialized : true 
 }))
@@ -29,7 +29,7 @@ const users = [];
 
 passport.use(new kakaoStrategy(
     {
-        clientID : 'a191bff31af4a5bde8b2e8191950ff41',
+        clientID : '',
         callbackURL : '/auth/kakao/callback'
     },
     function(accessToken, refreshToken, profile, done){
