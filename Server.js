@@ -127,7 +127,7 @@ app.get('/', function(req, res){
 
 
 app.post('/save', function(req, res){
-    console.log('저장완료');
+    console.log('저장 완료');
     // 1. 데이터 수신
     console.log(req.body);
     // 2. 데이터 파싱
