@@ -8,7 +8,7 @@ const app = express();
 
 //미들웨어 설정
 app.use(session({
-    secret : '39fd09u29fh0937r90f',
+    secret : '',
     resave : false,
     saveUnintialized : true 
 }))
